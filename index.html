@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#e9eef1">
+    <title>MOLAR® / transmisión experimental</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+<main class="world">
+    <div id="model" role="img" aria-label="Modelo 3D del usuario en rotación"></div>
+    <div class="grid" aria-hidden="true"></div>
+    <div class="signal-orbits" aria-hidden="true">
+      <div class="orbit orbit-a"><span></span></div>
+      <div class="orbit orbit-b"><span></span></div>
+      <div class="orbit orbit-c"></div>
+      <i class="signal-tick tick-a">＋</i><i class="signal-tick tick-b">＋</i>
+      <span class="signal-coord">[ VECTOR / 003 ]</span>
+    </div>
+    <div class="noise" aria-hidden="true"></div>
+    <header><a class="brand" href="#" aria-label="Molar inicio">molar<span>®</span></a><span class="coordinates">19.4326 N<br>99.1332 W</span>
+        <button class="menu" id="info">[ ACERCA ↗ ]</button>
+    </header>
+    <div class="left-rail" aria-hidden="true">TRANSMISIÓN EXPERIMENTAL — VOL. 001 — NO SIGNAL LOST</div>
+    <div class="top-code">M—001<br>ESTADO: <span id="status">EN MOVIMIENTO</span><br>FORMATO: SIN LÍMITES</div>
+    <div class="black-bar" aria-hidden="true"></div>
+    <section class="title">
+        <div class="label">[ ESTUDIO DE LA DISTORSIÓN / 2026 ]</div>
+        <h1>fuera de<br><span>frecuencia</span><i>®</i></h1>
+        <p>La forma cambia.<br>La señal permanece.</p></section>
+    <div class="micro micro-one" aria-hidden="true">SYSTEM / 00349<br>+ 001010011010<br>↳ FREQUENCY UNKNOWN<br>──────────────────<br>RECONSTRUCTING
+        THE INVISIBLE
+    </div>
+    <div class="cross" aria-hidden="true">+</div>
+    <aside class="index"><span class="index-heading">OBJETO / 001</span><span
+            class="index-number">01<span>—∞</span></span>
+        <div class="blue-bars" aria-hidden="true"></div>
+        <p><span id="model-status" role="status">CARGANDO MODELO 3D…</span><br>EN ESTADO INESTABLE</p></aside>
+    <div class="bottom-code" aria-hidden="true">{ X: <span id="x">000</span> / Y: <span id="y">000</span> }<br>RENDER_MODE:
+        LIVE<br>////////////////////////////////
+    </div>
+    <footer><span class="footer-label">INDEPENDENT<br>VISUAL EXPERIMENT</span>
+        <div class="controls">
+            <button id="motion" aria-pressed="true">PAUSAR SEÑAL <span>Ⅱ</span></button>
+            <button id="invert" aria-pressed="false">INVERTIR <span>◐</span></button>
+        </div>
+        <span class="edition">© MOLAR — 2026<br>EDICIÓN 001 / DIGITAL</span></footer>
+</main>
+<dialog id="detail">
+    <button id="close" aria-label="Cerrar">[ CERRAR ✕ ]</button>
+    <span class="dialog-label">MOLAR® / MANIFIESTO 001</span>
+    <h2>El ruido<br>también es<br><em>lenguaje.</em></h2>
+    <p>Un experimento visual entre estructuras digitales, vacío y distorsión. Sin una forma fija. Sin una frecuencia
+        estable.</p><span class="dialog-label">IMAGEN / REFERENCIA VISUAL ORIGINAL</span></dialog>
+<script type="module" src="./src/main.js?v=no-poster-2"></script>
+</body>
+</html>
